@@ -1,16 +1,49 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
-</head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS ID Selectors</title>
+    <style>
+        /* General styling for all paragraphs to make them more visible */
+        p {
+            padding: 15px;
+            font-family: sans-serif;
+            font-weight: bold;
+        }
 
+        /* Styling for the first paragraph with id="yellow" */
+        #yellow {
+            background-color: yellow;
+            border-width: 1px;
+            border-color: green;
+            border-style: solid; /* Added for the border to be visible */
+        }
+
+        /* Styling for the second paragraph with id="red" */
+        #red {
+            background-color: red;
+            border-width: 1px;
+            border-color: black;
+            border-style: solid;
+            color: white; /* Added for better text readability */
+        }
+
+        /* Styling for the third paragraph with id="green" */
+        #green {
+            background-color: green;
+            border-width: 1px;
+            border-color: yellow;
+            border-style: solid;
+            color: white; /* Added for better text readability */
+        }
+    </style>
+</head>
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+    <p id="yellow">This paragraph has a yellow background and a 1px green border.</p>
+    <p id="red">This paragraph has a red background and a 1px black border.</p>
+    <p id="green">This paragraph has a green background and a 1px yellow border.</p>
 
 </body>
-
 </html>
